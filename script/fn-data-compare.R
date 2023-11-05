@@ -8,7 +8,7 @@ data.compare <- function(df1, df2,...) {
   dt1_ord <- as.data.table(df1) %>% arrange(...)
   dt2_ord <- as.data.table(df2) %>% arrange(...)
   
-  return(all.equal(dt1_ord, dt2_ord, ignore.col.order=TRUE))
+  return(data.table::all.equal(dt1_ord, dt2_ord, ignore.col.order=TRUE))
   
 }
 
