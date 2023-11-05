@@ -1,5 +1,3 @@
 # study-sw7d
 
-put something on my local drive
-
-and change once more
+Useful function I have created as part of my study.
